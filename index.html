@@ -6,7 +6,11 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite + React + TS</title>
-  <meta property="og:image" content="https://5cb7-201-48-154-69.ngrok-free.app/test.png">
+  <!-- <meta property="og:image" content="https://5cb7-201-48-154-69.ngrok-free.app/test.png"> -->
+  <meta property="og:image">
+  <script>
+    document.querySelector('meta[property="og:image"]').setAttribute('content', 'https://5cb7-201-48-154-69.ngrok-free.app/test.png');
+  </script>
 </head>
 
 <body>
